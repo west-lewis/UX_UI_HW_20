@@ -50,15 +50,7 @@
 	-webkit-overflow-scrolling: touch;
 }
 
-.icon-list li::before {
-	display: block;
-	flex-shrink: 0;
-	width: 1.5em;
-	height: 1.5em;
-	margin-right: .5rem;
-	content: "";
-	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23212529' viewBox='0 0 16 16'%3E%3Cpath d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z'/%3E%3C/svg%3E") no-repeat center center / 100% auto;
-}
+
 
 .header-flair{
 	background-image: url(..images/eliecer-gallegos-s9JJIqiNwdA-unsplash.jpg);
@@ -73,19 +65,36 @@
 	background-color: rgb(124, 207, 233);
 	height:7.85rem;
 }
-.Epipelagic-Zone{
+.Mesopelagic-Zone{
 	background-color: rgb(46, 109, 168);
 	height:23.8125rem;
 }
-.Epipelagic-Zone{
+.Bathypelagic-Zone{
 	background-color: rgb(31, 62, 148);
 	height:94.5625rem;
 }
-.Epipelagic-Zone{
+.Abyssopelagic-Zone{
 	background-color: rgb(30, 42, 109);
 	height:63.5rem;
 }
-.Epipelagic-Zone{
+.Hadal-Zone{
 	background-color: rgb(12, 34, 66);
 	height:158.75rem;
+	color: #fff;
 }
+
+#epz {
+	css declarations;
+  }
+#mpz {
+	css declarations;
+  }
+ #bpz {
+	css declarations;
+  }
+#apz {
+	css declarations;
+  }
+ #hpz {
+	css declarations;
+  }
