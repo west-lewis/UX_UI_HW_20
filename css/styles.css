@@ -53,48 +53,58 @@
 
 
 .header-flair{
+
 	background-image: url(..images/eliecer-gallegos-s9JJIqiNwdA-unsplash.jpg);
 	background-size: auto;
-	color: #fff;
 	height:100vh;
 	display: flex;
     flex-direction: column;
     justify-content: center;
+	text-align: center;
 }
 .Epipelagic-Zone{
 	background-color: rgb(124, 207, 233);
 	height:7.85rem;
+	color: #fff;
+	text-align: left;
 }
 .Mesopelagic-Zone{
 	background-color: rgb(46, 109, 168);
 	height:23.8125rem;
+	color: #fff;
+	text-align: left;
 }
 .Bathypelagic-Zone{
 	background-color: rgb(31, 62, 148);
 	height:94.5625rem;
+	color: #fff;
+	text-align: left;
 }
 .Abyssopelagic-Zone{
 	background-color: rgb(30, 42, 109);
 	height:63.5rem;
+	color: #fff;
+	text-align: left;
 }
 .Hadal-Zone{
 	background-color: rgb(12, 34, 66);
 	height:158.75rem;
 	color: #fff;
+	text-align: left;
 }
 
 #epz {
-	css declarations;
+	
   }
 #mpz {
-	css declarations;
+	
   }
  #bpz {
-	css declarations;
+	
   }
 #apz {
-	css declarations;
+	
   }
  #hpz {
-	css declarations;
+	
   }
