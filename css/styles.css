@@ -49,8 +49,13 @@
 	white-space: nowrap;
 	-webkit-overflow-scrolling: touch;
 }
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: inline-flex;
+    flex-wrap: inherit;
+    align-items: center;
 
-
+    
+}
 
 .header-flair{
 
@@ -64,31 +69,31 @@
 }
 .Epipelagic-Zone{
 	background-color: rgb(124, 207, 233);
-	height:7.85rem;
+	height:15.7rem;
 	color: #fff;
 	text-align: left;
 }
 .Mesopelagic-Zone{
 	background-color: rgb(46, 109, 168);
-	height:23.8125rem;
+	height:47.625rem;
 	color: #fff;
 	text-align: left;
 }
 .Bathypelagic-Zone{
 	background-color: rgb(31, 62, 148);
-	height:94.5625rem;
+	height:189.125rem;
 	color: #fff;
 	text-align: left;
 }
 .Abyssopelagic-Zone{
 	background-color: rgb(30, 42, 109);
-	height:63.5rem;
+	height:127rem;
 	color: #fff;
 	text-align: left;
 }
 .Hadal-Zone{
 	background-color: rgb(12, 34, 66);
-	height:158.75rem;
+	height:317.5rem;
 	color: #fff;
 	text-align: left;
 }
@@ -108,3 +113,20 @@
  #hpz {
 	
   }
+
+  .col{
+	text-align: center;
+	justify-content: center;
+	outline: #fff;
+	margin: 1rem;
+  }
+
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
