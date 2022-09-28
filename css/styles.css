@@ -21,7 +21,7 @@
 	padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     font-size: var(--bs-nav-link-font-size);
     font-weight: var(--bs-nav-link-font-weight);
-	--nav-link-color: rgb(163, 210, 224);
+	color: rgb(163, 210, 224);
     --nav-link-hover-color: rgb(124, 207, 233);
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
@@ -31,7 +31,7 @@
 	padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     font-size: var(--bs-nav-link-font-size);
     font-weight: var(--bs-nav-link-font-weight);
-	--nav-link-color: rgb(163, 210, 224);
+	color: rgb(163, 210, 224);
     --nav-link-hover-color: rgb(46, 109, 168);
     text-decoration: none;
     transition: color .15s ease-in-out,--nav-link-hover-color .15s ease-in-out,border-color .15s ease-in-out;
@@ -41,7 +41,7 @@
 	padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     font-size: var(--bs-nav-link-font-size);
     font-weight: var(--bs-nav-link-font-weight);
-	--nav-link-color: rgb(163, 210, 224);
+	color: rgb(163, 210, 224);
     --nav-link-hover-color: rgb(31, 62, 148);
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
@@ -51,7 +51,7 @@
 	padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     font-size: var(--bs-nav-link-font-size);
     font-weight: var(--bs-nav-link-font-weight);
-	--nav-link-color: rgb(163, 210, 224);
+	color: rgb(163, 210, 224);
     --nav-link-hover-color: rgb(30, 42, 109);
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
@@ -61,7 +61,7 @@
 	padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     font-size: var(--bs-nav-link-font-size);
     font-weight: var(--bs-nav-link-font-weight);
-	--nav-link-color: rgb(163, 210, 224);
+	color: rgb(163, 210, 224);
     --nav-link-hover-color: rgb(12, 34, 66);
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
@@ -84,12 +84,11 @@
 	white-space: nowrap;
 	-webkit-overflow-scrolling: touch;
 }
+
 .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
     display: inline-flex;
     flex-wrap: inherit;
-    align-items: center;
-
-    
+    align-items: center; 
 }
 
 .header-flair{
